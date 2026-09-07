@@ -36,8 +36,6 @@ lema:        "Código seguro, eficiente y mantenible."
 </div>
 <div>
 <picture> <img align="right" alt="GIF" src="https://github.com/Aurorp1g/Aurorp1g/raw/main/cartoon.webp" width="300" height="auto" /></picture>
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Alessandro-BS&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false"/>
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Alessandro-BS&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact"/>
 </div>
 
 <br clear="both"/>
