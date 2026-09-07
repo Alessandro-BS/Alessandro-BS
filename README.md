@@ -36,19 +36,28 @@ lema:        "Código seguro, eficiente y mantenible."
 </div>
 <div>
 <picture> <img align="right" alt="GIF" src="https://github.com/Aurorp1g/Aurorp1g/raw/main/cartoon.webp" width="300" height="auto" /></picture>
-<img src="https://github-readme-stats.vercel.app/api?username=Alessandro-BS&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alessandro-BS&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alessandro-BS&bg_color=212121&color=ffffff&line=404db0&point=ffcd42&area=true&hide_border=true"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Alessandro-BS&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Alessandro-BS&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact"/>
 </div>
 
 <br clear="both"/>
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Alessandro-BS&theme=tokyonight&hide_border=false" alt="streak"/>
+  <img src="https://streak-stats.demolab.com/?user=Alessandro-BS&theme=tokyonight&hide_border=false" alt="streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Alessandro-BS&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Alessandro-BS&theme=tokyonight" alt="resumen del perfil"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Alessandro-BS&theme=tokyonight" alt="repos por lenguaje"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Alessandro-BS&theme=tokyonight" alt="lenguaje mas usado"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Alessandro-BS&theme=tokyonight&utcOffset=-5" alt="horario productivo"/>
+</p>
+
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=Alessandro-BS&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
 </p>
 
 <!--horizontal divider(gradiant)-->
@@ -56,32 +65,24 @@ lema:        "Código seguro, eficiente y mantenible."
 
 # <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Proyectos en los que estoy trabajando
 
-<table>
-  <tr>
-    <td width="60%" valign="top">
-      <h3>🤖 Camila — Agente de WhatsApp con IA</h3>
-      <p><b>Corporación Educativa IPSE</b></p>
-      <p>
-        Agente conversacional que informa sobre la oferta de cursos y gestiona
-        matrículas por WhatsApp. Diseño completo del flujo de mensajes,
-        secuencias de remarketing y reglas comerciales. Los datos de cursos y
-        precios se consultan en tiempo real desde Google Sheets mediante una
-        herramienta MCP (<code>consultar_curso</code>) expuesta con Apps Script.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/BotcakeAI-6C5CE7?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/WhatsApp_API-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Apps_Script-4285F4?style=flat-square&logo=google&logoColor=white"/>
-      </p>
-      <p><img src="https://img.shields.io/badge/Estado-En%20desarrollo-ffcd42?style=flat-square&labelColor=212121"/></p>
-    </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="220"/>
-    </td>
-  </tr>
-</table>
+### 🤖 Camila — Agente de WhatsApp con IA · <sub>Corporación Educativa IPSE</sub>
+
+Agente conversacional que informa sobre la oferta de cursos y gestiona matrículas por
+WhatsApp. Diseño completo del flujo de mensajes, secuencias de remarketing y reglas
+comerciales. Los datos de cursos y precios se consultan en tiempo real desde Google
+Sheets mediante una herramienta MCP (`consultar_curso`) expuesta con Apps Script.
+
+<img src="https://img.shields.io/badge/BotcakeAI-6C5CE7?style=for-the-badge&logoColor=white"/> <img src="https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/> <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/> <img src="https://img.shields.io/badge/Apps_Script-4285F4?style=for-the-badge&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/Estado-En%20desarrollo-ffcd42?style=for-the-badge&labelColor=212121"/>
+
+```mermaid
+flowchart LR
+    A["💬 Cliente<br/>WhatsApp"] --> B["🤖 Camila<br/>Agente IA"]
+    B --> C["🔌 MCP<br/>consultar_curso"]
+    C --> D["📊 Google Sheets<br/>cursos y precios"]
+    D --> B
+    B --> E["📈 Secuencia de<br/>remarketing"]
+    B --> F["📝 Matrícula<br/>registrada"]
+```
 
 <!--horizontal divider(gradiant)-->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
