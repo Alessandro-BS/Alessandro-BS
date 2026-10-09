@@ -221,7 +221,7 @@ flowchart LR
   </tr>
   <tr>
     <td align="center"><b>Frontend y móvil</b></td>
-    <td><img src="https://skillicons.dev/icons?i=angular,react,ionic,tailwind,bootstrap,vite,androidstudio&perline=8" alt="frontend"/></td>
+    <td><img src="https://skillicons.dev/icons?i=angular,react,tailwind,bootstrap,vite,androidstudio&perline=8" alt="frontend"/></td>
   </tr>
   <tr>
     <td align="center"><b>Datos</b></td>
@@ -288,5 +288,5 @@ flowchart LR
 </picture>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffcd42,50:6a5acd,100:404db0&height=110&section=footer&text=Gracias%20por%20pasar%20%F0%9F%87%B5%F0%9F%87%AA&fontSize=20&fontColor=ffffff&fontAlignY=70" width="100%" alt="footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffcd42,50:6a5acd,100:404db0&height=110&section=footer&text=Gracias%20por%20pasar%20%C2%B7%20Lima%2C%20Per%C3%BA&fontSize=20&fontColor=ffffff&fontAlignY=70" width="100%" alt="footer"/>
 </p>
