@@ -23,9 +23,9 @@
 
 ## 🧑‍💻 Sobre mí
 
-Estudiante de **Ingeniería de Software (7.º ciclo)** y desarrollador **Full Stack**. Me gusta construir software que la gente usa de verdad: mantengo el **aula virtual de un consorcio de cuatro institutos** que está en producción, desarrollo una **app móvil full stack** para coordinar horarios en grupo y diseño **agentes de IA** que atienden por WhatsApp.
+Soy **Aless Bustamante**, estudiante de **Ingeniería de Software (8.º ciclo)** en la Universidad Tecnológica del Perú y desarrollador **Full Stack** en Lima. Me gusta construir software que se usa de verdad: mantengo en producción el **aula virtual de un consorcio de cuatro institutos**, desarrollo una **app móvil** para coordinar horarios en grupo y diseño **agentes de IA** que atienden por WhatsApp.
 
-Trabajo con **Clean Architecture**, pruebas automatizadas y **Git Flow con staging**, porque prefiero que los cambios lleguen a producción sin sorpresas. Me interesa especialmente la **Ingeniería de Datos** y la **IA en la nube**, y sigo profundizando en **ciberseguridad**.
+Trabajo con **Clean Architecture**, pruebas automatizadas y **Git Flow**, y hoy oriento mi carrera hacia la **Ingeniería de Datos** y la **IA en la nube**.
 
 ```console
 $ git log --oneline --graph aless/carrera
