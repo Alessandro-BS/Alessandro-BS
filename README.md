@@ -5,49 +5,48 @@
 
 <p align="center">
   <a href="https://github.com/Alessandro-BS">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=8B7CF6&center=true&vCenter=true&width=720&lines=LMS+multi-instituto+en+producci%C3%B3n+(PHP+8.3);App+Android+nativa+con+Kotlin+%2B+Compose;Agentes+de+IA+por+WhatsApp+con+MCP;Clean+Architecture%2C+TDD+y+Git+Flow" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=E8590C&center=true&vCenter=true&width=720&lines=LMS+multi-instituto+en+producci%C3%B3n+(PHP+8.3);App+m%C3%B3vil+full+stack%3A+Expo+%2B+Express+%2B+PostgreSQL;Agentes+de+IA+por+WhatsApp+con+MCP;Clean+Architecture%2C+TDD+y+Git+Flow" alt="Typing SVG"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="#-proyectos-destacados"><img src="https://img.shields.io/badge/Proyectos-404db0?style=for-the-badge&logo=rocket&logoColor=white" alt="Proyectos"/></a>
-  <a href="#-stack-tecnológico"><img src="https://img.shields.io/badge/Stack-6a5acd?style=for-the-badge&logo=stackshare&logoColor=white" alt="Stack"/></a>
-  <a href="#-actividad-en-github"><img src="https://img.shields.io/badge/Actividad-ffcd42?style=for-the-badge&logo=github&logoColor=black" alt="Actividad"/></a>
+  <a href="#-proyectos-destacados"><img src="https://img.shields.io/badge/Proyectos-1f2a44?style=for-the-badge&logo=rocket&logoColor=white" alt="Proyectos"/></a>
+  <a href="#-stack-tecnológico"><img src="https://img.shields.io/badge/Stack-e8590c?style=for-the-badge&logo=stackshare&logoColor=white" alt="Stack"/></a>
+  <a href="#-actividad-en-github"><img src="https://img.shields.io/badge/Actividad-2f9e44?style=for-the-badge&logo=github&logoColor=white" alt="Actividad"/></a>
   <br/>
-  <img src="https://komarev.com/ghpvc/?username=Alessandro-BS&label=Visitas&color=404db0&style=flat-square" alt="profile views"/>
-  <img src="https://img.shields.io/github/followers/Alessandro-BS?label=Seguidores&style=flat-square&color=6a5acd" alt="followers"/>
+  <img src="https://komarev.com/ghpvc/?username=Alessandro-BS&label=Visitas&color=1f2a44&style=flat-square" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/Alessandro-BS?label=Seguidores&style=flat-square&color=e8590c" alt="followers"/>
   <img src="https://img.shields.io/badge/Lima-Per%C3%BA-ffcd42?style=flat-square&logo=googlemaps&logoColor=black" alt="Lima, Perú"/>
 </p>
 
 <br/>
 
-## 👋 Sobre mí
+## 🧑‍💻 Sobre mí
 
-<img align="right" width="260" src="https://github.com/Aurorp1g/Aurorp1g/raw/main/cartoon.webp" alt="gato programando"/>
+Estudiante de **Ingeniería de Software (7.º ciclo)** y desarrollador **Full Stack**. Me gusta construir software que la gente usa de verdad: mantengo el **aula virtual de un consorcio de cuatro institutos** que está en producción, desarrollo una **app móvil full stack** para coordinar horarios en grupo y diseño **agentes de IA** que atienden por WhatsApp.
 
-Estudiante de **Ingeniería de Software (7.º ciclo)** y desarrollador **Full Stack**. Me gusta construir software que la gente usa de verdad: hoy mantengo el **aula virtual de un consorcio de cuatro institutos** que está en producción, desarrollo una **app Android nativa** para coordinar horarios en grupo y diseño **agentes de IA** que atienden por WhatsApp.
+Trabajo con **Clean Architecture**, pruebas automatizadas y **Git Flow con staging**, porque prefiero que los cambios lleguen a producción sin sorpresas. Me interesa especialmente la **Ingeniería de Datos** y la **IA en la nube**, y sigo profundizando en **ciberseguridad**.
 
-Trabajo con **Clean Architecture**, pruebas automatizadas y Git Flow con staging, porque prefiero que los cambios lleguen a producción sin sorpresas. Ahora mismo estoy profundizando en **ciberseguridad**, **cloud** y **agentes de IA**.
-
-```yaml
-rol:          Full Stack Developer
-enfoque:      [Clean Architecture, APIs REST, Automatización con IA]
-en_producción: [Educa LMS — 3 institutos en vivo, el 4.º en camino]
-aprendiendo:  [Ciberseguridad, Cloud, Agentes de IA]
-lema:         "Código seguro, eficiente y mantenible."
+```console
+$ git log --oneline --graph aless/carrera
+* 4f2c9e1 (HEAD -> main) feat(lms): Educa LMS en producción para 3 institutos
+* 9a7d03b feat(movil): HueckoApp v1.0.0 nativa → v2 full stack en develop
+* c18e5f2 feat(ia): Camila, agente de WhatsApp con MCP
+* 2b6a4d8 chore(aprendizaje): ingeniería de datos · IA en la nube · ciberseguridad
+* 0e1f7a3 init: Ingeniería de Software
 ```
-
-<br clear="right"/>
 
 ---
 
-## 🚀 Proyectos destacados
+## 📐 Proyectos destacados
 
 ### 🎓 Educa LMS &nbsp;<sub><img src="https://img.shields.io/badge/repositorio-privado-555?style=flat-square&logo=github" alt="privado"/> <img src="https://img.shields.io/badge/estado-en%20producci%C3%B3n-3ddc97?style=flat-square" alt="en producción"/></sub>
 
 <img src="./assets/educa-lms.svg" width="100%" alt="Educa LMS — una base de código, cuatro institutos"/>
 
 Aula virtual propia de un consorcio educativo peruano (**EDUCA · IPSE · ICEPP · CESUP**). Cada instituto tiene su servidor, su base de datos y su marca, pero el código **se escribe una sola vez**: una herramienta generadora toma una versión etiquetada de `main` y produce la variante de cada marca (nombre, colores, logo, series de facturación). Cubre todo el ciclo del alumno: venta, matrícula, cobranza con comprobantes electrónicos, clases, exámenes y certificados.
+
+Además, lo estoy **integrando con el ecosistema comercial** del consorcio: **Pancake** y **Pancake CRM** para ventas y atención, **Botcake** para los bots de WhatsApp y **n8n** para automatizar los flujos entre el aula virtual, el CRM y la mensajería.
 
 <p>
   <img src="https://img.shields.io/badge/PHP_8.3-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
@@ -56,6 +55,11 @@ Aula virtual propia de un consorcio educativo peruano (**EDUCA · IPSE · ICEPP 
   <img src="https://img.shields.io/badge/PHPUnit_12-3C9CD7?style=for-the-badge&logo=php&logoColor=white"/>
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
   <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Pancake-FF6B35?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pancake_CRM-1F2A44?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Botcake-6C5CE7?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
 </p>
 
 <details>
@@ -71,7 +75,8 @@ flowchart LR
     API["API · 35 endpoints<br/>auth por token"] --> S
     CRON["19 cron jobs<br/>cola · respaldos · conciliación"] --> DB
     S --> EXT["🧾 Facturación electrónica<br/>💬 WhatsApp · 🔔 Push"]
-    classDef r fill:#404db0,color:#fff,stroke:#6a5acd
+    S <--> INT["🔗 Integraciones<br/>Pancake · Pancake CRM<br/>Botcake · n8n"]
+    classDef r fill:#e8590c,color:#fff,stroke:#1f2a44
 ```
 
 - **Dos capas que conviven:** las páginas por rol validan sesión, rol y CSRF; la lógica de negocio nueva vive en `src/` por módulos (Académico, Cobros, Certificados, Ventas, Soporte) con **TDD**.
@@ -120,39 +125,45 @@ Cada pase a producción es un **script ensayado sobre una copia desechable**, ej
 
 <br/>
 
-### 📱 HueckoApp &nbsp;<sub><a href="https://github.com/Alessandro-BS/HueckoApp-Android"><img src="https://img.shields.io/badge/ver_repositorio-6750A4?style=flat-square&logo=github&logoColor=white" alt="Repositorio"/></a> <img src="https://img.shields.io/badge/versi%C3%B3n-1.0.0-d0bcff?style=flat-square" alt="v1.0.0"/></sub>
+### 📱 HueckoApp &nbsp;<sub><a href="https://github.com/Alessandro-BS/HueckoApp-Android"><img src="https://img.shields.io/badge/ver_repositorio-6750A4?style=flat-square&logo=github&logoColor=white" alt="Repositorio"/></a> <img src="https://img.shields.io/badge/v1.0.0-publicada-d0bcff?style=flat-square" alt="v1.0.0"/> <a href="https://github.com/Alessandro-BS/HueckoApp-Android/tree/develop"><img src="https://img.shields.io/badge/v2.0.0-en_develop-ffcd42?style=flat-square" alt="v2 en develop"/></a></sub>
 
 <a href="https://github.com/Alessandro-BS/HueckoApp-Android">
   <img src="./assets/huecko.svg" width="100%" alt="HueckoApp — coordinación de horarios grupales"/>
 </a>
 
-Coordinar un plan por chat es un caos. **HueckoApp** cruza los horarios de todo el grupo, pinta un **mapa de calor** con la disponibilidad y deja que el grupo **vote** propuestas hasta llegar al quórum. El horario se puede cargar a mano o **desde una foto** usando Gemini, con un modo offline de respaldo si no hay red.
+Coordinar un plan por chat es un caos. **HueckoApp** cruza los horarios de todo el grupo, muestra los **huecos libres en común** y deja que el grupo **vote** propuestas con lugar y plazo. El horario se carga a mano o **desde una foto** con Gemini, y si alguien reporta un imprevisto el plan se reabre.
+
+Nació como **app Android nativa** (Kotlin + Jetpack Compose, `v1.0.0`) y hoy evoluciona a un **monorepo full stack**: app con Expo / React Native, API REST propia y la IA solo del lado del servidor.
 
 <p>
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Material_3-6750A4?style=for-the-badge&logo=materialdesign&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gemini_%C2%B7_Firebase_AI-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-  <img src="https://img.shields.io/badge/MVVM-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React_Native-20232a?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express_5-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kotlin_(v1)-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/tests-988_%E2%9C%94-2EA44F?style=for-the-badge"/>
 </p>
 
 <details>
-<summary><b>🧩 Arquitectura MVVM por capas</b></summary>
+<summary><b>🏗️ Arquitectura v2 — monorepo full stack</b></summary>
 <br/>
 
 ```mermaid
 flowchart LR
-    UI["🖼️ UI · Compose<br/>Dashboard · Grupos · Horario · OCR · Votación"]
-    VM["🧠 ViewModels<br/>StateFlow"]
-    UC["⚙️ Dominio<br/>AvailabilityMatcher · modelos"]
-    REPO["📦 Repositorios<br/>interfaces en domain, impl en data"]
-    AI["✨ GeminiService<br/>OCR + fallback offline"]
-    UI --> VM --> UC
-    VM --> REPO
-    REPO --> AI
-    classDef k fill:#6750A4,color:#fff,stroke:#d0bcff
-    class UI,VM,UC,REPO,AI k
+    A["📱 App móvil<br/>Expo · React Native · TS"] -- "REST + JWT" --> B["⚙️ API REST<br/>Express 5 · TypeScript · zod"]
+    B -- "SQL parametrizado<br/>+ migraciones" --> C[("🐘 PostgreSQL<br/>Neon en prod · PGlite en dev/tests")]
+    B -- "la clave nunca sale del servidor" --> D["🤖 Gemini<br/>OCR · borradores · resúmenes"]
+    S["📦 shared/<br/>tipos del contrato"] -. "import type" .-> A
+    S -. "import type" .-> B
+    classDef k fill:#1f2a44,color:#fff,stroke:#e8590c
+    class A,B,C,D,S k
 ```
+
+- **Seguridad:** JWT en `expo-secure-store`, contraseñas con bcrypt, roles `USER`/`ADMIN` validados en cada petición y límite de llamadas a la IA por usuario.
+- **IA robusta:** las respuestas de Gemini se validan con zod, hay modelo de respaldo si el principal falla y un modo demostración sin clave.
+- **Calidad:** Vitest + Supertest (cada test con su propia base PGlite en memoria) y Jest en mobile; CI con typecheck y tests en cada PR.
+- **Móvil de verdad:** cámara y galería, ubicación y selector en el mapa, gráficos e informes PDF/CSV generados en el teléfono.
 
 </details>
 
@@ -160,7 +171,7 @@ flowchart LR
 <summary><b>🔍 El algoritmo del “hueco” — por qué no uso el promedio</b></summary>
 <br/>
 
-El cruce de agendas es una **función pura** (sin repositorios ni corrutinas), así se prueba con una lista de bloques y nada más. Junta las horas consecutivas en las que el grupo supera su umbral y **describe cada franja por su hora menos disponible**: decir “de 10 a 13 está libre el 80 %” cuando a las 12 solo lo está el 40 % sería prometer un hueco que se rompe a la mitad.
+El cruce de agendas es una **función pura** (sin repositorios ni corrutinas), así se prueba con una lista de bloques y nada más. Junta las horas consecutivas en las que el grupo supera su umbral y **describe cada franja por su hora menos disponible**: decir “de 10 a 13 está libre el 80 %” cuando a las 12 solo lo está el 40 % sería prometer un hueco que se rompe a la mitad. *(Versión Kotlin de la v1.)*
 
 ```kotlin
 val anterior = ventanas.lastOrNull()
@@ -172,6 +183,22 @@ if (anterior != null && anterior.endHour == hour) {
         freeMembers = minOf(anterior.freeMembers, libres),
     )
 }
+```
+
+</details>
+
+<details>
+<summary><b>🤖 v1 nativa — Kotlin, Jetpack Compose y MVVM</b></summary>
+<br/>
+
+```mermaid
+flowchart LR
+    UI["🖼️ UI · Compose + Material 3"] --> VM["🧠 ViewModels<br/>StateFlow"]
+    VM --> UC["⚙️ Dominio<br/>AvailabilityMatcher"]
+    VM --> REPO["📦 Repositorios<br/>interfaz en domain, impl en data"]
+    REPO --> AI["✨ GeminiService<br/>OCR + fallback offline"]
+    classDef k fill:#1f2a44,color:#fff,stroke:#e8590c
+    class UI,VM,UC,REPO,AI k
 ```
 
 </details>
@@ -202,6 +229,46 @@ flowchart LR
     D --> B
     B --> E["📈 Secuencia de<br/>remarketing"]
     B --> F["📝 Matrícula<br/>registrada"]
+```
+
+</details>
+
+---
+
+## ☁️ Interés: Ingeniería de Datos e IA en la nube
+
+<p>
+  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Microsoft_Fabric-117865?style=for-the-badge&logo=microsoft&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+</p>
+
+<details>
+<summary><b>🛤️ Ver la ruta que estoy construyendo — del dato crudo a la IA</b></summary>
+<br/>
+
+```mermaid
+flowchart LR
+    SRC["🗃️ Fuentes<br/>SQL Server · APIs · eventos"] --> K["📨 Apache Kafka<br/>ingesta en streaming"]
+    K --> SP["⚡ Spark · Databricks<br/>transformación"]
+    SP --> LH[("🏞️ Lakehouse<br/>Microsoft Fabric")]
+    LH --> BI["📊 Power BI<br/>tableros"]
+    LH --> AI["🤖 IA en la nube<br/>Claude · ChatGPT · Gemini · DeepSeek"]
+    classDef k fill:#1f2a44,color:#fff,stroke:#e8590c
+    class SRC,K,SP,LH,BI,AI k
 ```
 
 </details>
@@ -263,20 +330,20 @@ flowchart LR
 ## 📊 Actividad en GitHub
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Alessandro-BS&theme=tokyonight&hide_border=true&background=0d1117" height="170" alt="racha"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Alessandro-BS&theme=tokyonight" height="170" alt="repos por lenguaje"/>
+  <img src="https://streak-stats.demolab.com/?user=Alessandro-BS&background=F7F4EC&border=1F2A44&stroke=1F2A44&ring=E8590C&fire=E8590C&currStreakNum=1F2A44&sideNums=1F2A44&currStreakLabel=E8590C&sideLabels=5B6785&dates=5B6785" height="170" alt="racha"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Alessandro-BS&theme=solarized" height="170" alt="repos por lenguaje"/>
 </p>
 
 <details>
 <summary><b>📈 Ver más estadísticas</b></summary>
 <br/>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Alessandro-BS&theme=tokyonight" alt="resumen del perfil"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Alessandro-BS&theme=solarized" alt="resumen del perfil"/>
   <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Alessandro-BS&theme=tokyonight" alt="lenguaje más usado"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Alessandro-BS&theme=tokyonight&utcOffset=-5" alt="horario productivo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Alessandro-BS&theme=solarized" alt="lenguaje más usado"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Alessandro-BS&theme=solarized&utcOffset=-5" alt="horario productivo"/>
   <br/>
-  <img src="https://github-trophies.vercel.app/?username=Alessandro-BS&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="trofeos"/>
+  <img src="https://github-trophies.vercel.app/?username=Alessandro-BS&theme=solarized&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="trofeos"/>
 </p>
 </details>
 
@@ -287,6 +354,4 @@ flowchart LR
   <img alt="serpiente comiéndose el gráfico de contribuciones" src="https://raw.githubusercontent.com/Alessandro-BS/Alessandro-BS/output/github-snake.svg"/>
 </picture>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffcd42,50:6a5acd,100:404db0&height=110&section=footer&text=Gracias%20por%20pasar%20%C2%B7%20Lima%2C%20Per%C3%BA&fontSize=20&fontColor=ffffff&fontAlignY=70" width="100%" alt="footer"/>
-</p>
+<img src="./assets/footer.svg" width="100%" alt="Cajetín: Aless Bustamante · Ingeniería de Software · Lima, Perú"/>
