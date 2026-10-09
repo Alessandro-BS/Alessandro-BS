@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Aless Bustamante — Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1f"/>
+      <stop offset="1" stop-color="#151a3d"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#c9c3ff"/>
+      <stop offset="1" stop-color="#ffcd42"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1000" height="300" rx="18"/></clipPath>
+    <style>
+      .f { font-family: 'Segoe UI', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace; }
+      .b1 { animation: drift1 14s ease-in-out infinite alternate; }
+      .b2 { animation: drift2 18s ease-in-out infinite alternate; }
+      .b3 { animation: drift3 16s ease-in-out infinite alternate; }
+      @keyframes drift1 { to { transform: translate(120px, 40px); } }
+      @keyframes drift2 { to { transform: translate(-140px, -30px); } }
+      @keyframes drift3 { to { transform: translate(60px, -50px); } }
+      .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+      .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s } .d4 { animation-delay: .85s }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .type { clip-path: inset(0 100% 0 0); animation: type 3.2s steps(50) 1.2s forwards; }
+      @keyframes type { to { clip-path: inset(0 0 0 0); } }
+      .float { animation: float 6s ease-in-out infinite; }
+      @keyframes float { 50% { transform: translateY(-8px); } }
+      .ln { opacity: .0; animation: ln .5s ease forwards; }
+      @keyframes ln { to { opacity: 1; } }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes pulse { 50% { opacity: .35; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+    <circle class="b1" cx="140" cy="60" r="140" fill="#404db0" opacity=".55" filter="url(#blur)"/>
+    <circle class="b2" cx="820" cy="250" r="150" fill="#6a5acd" opacity=".5" filter="url(#blur)"/>
+    <circle class="b3" cx="560" cy="20" r="90" fill="#ffcd42" opacity=".18" filter="url(#blur)"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="299" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <!-- Texto -->
+  <g class="f">
+    <g class="rise d1">
+      <rect x="56" y="58" width="210" height="28" rx="14" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".12"/>
+      <circle class="pulse" cx="74" cy="72" r="5" fill="#3ddc97"/>
+      <text x="88" y="77" font-size="13" fill="#d7dbff" letter-spacing=".4">Construyendo en producción</text>
+    </g>
+    <text class="rise d2" x="54" y="140" font-size="52" font-weight="800" fill="url(#name)" letter-spacing="-1">Aless Bustamante</text>
+    <text class="rise d3" x="56" y="176" font-size="19" fill="#b9bfe8">Full Stack Developer  ·  Ingeniería de Software  ·  Lima, Perú</text>
+  </g>
+  <g class="m rise d4" font-size="15">
+    <text x="56" y="232" fill="#ffcd42">❯</text>
+    <text class="type" x="74" y="232" fill="#e6e8ff">construyo sistemas reales: LMS, apps y agentes IA<tspan class="caret" fill="#ffcd42"> ▍</tspan></text>
+  </g>
+
+  <!-- Ventana de código flotante -->
+  <g class="float">
+    <g transform="translate(690 52)">
+      <rect width="262" height="196" rx="12" fill="#0d1124" fill-opacity=".86" stroke="#ffffff" stroke-opacity=".12"/>
+      <circle cx="18" cy="18" r="5" fill="#ff5f57"/><circle cx="34" cy="18" r="5" fill="#febc2e"/><circle cx="50" cy="18" r="5" fill="#28c840"/>
+      <text class="m" x="190" y="22" font-size="10" fill="#6b7299">dev.kt</text>
+      <g class="m" font-size="12.5">
+        <text class="ln" style="animation-delay:1.0s" x="18" y="52"><tspan fill="#c792ea">val</tspan><tspan fill="#e6e8ff"> dev = </tspan><tspan fill="#82aaff">Developer</tspan><tspan fill="#e6e8ff">(</tspan></text>
+        <text class="ln" style="animation-delay:1.3s" x="34" y="74"><tspan fill="#9aa3d6">stack = </tspan><tspan fill="#c3e88d">"Full Stack"</tspan><tspan fill="#e6e8ff">,</tspan></text>
+        <text class="ln" style="animation-delay:1.6s" x="34" y="96"><tspan fill="#9aa3d6">web = </tspan><tspan fill="#c3e88d">"PHP · Angular"</tspan><tspan fill="#e6e8ff">,</tspan></text>
+        <text class="ln" style="animation-delay:1.9s" x="34" y="118"><tspan fill="#9aa3d6">mobile = </tspan><tspan fill="#c3e88d">"Kotlin"</tspan><tspan fill="#e6e8ff">,</tspan></text>
+        <text class="ln" style="animation-delay:2.2s" x="34" y="140"><tspan fill="#9aa3d6">ia = </tspan><tspan fill="#c3e88d">"Agentes + MCP"</tspan><tspan fill="#e6e8ff">,</tspan></text>
+        <text class="ln" style="animation-delay:2.5s" x="34" y="162"><tspan fill="#9aa3d6">tests = </tspan><tspan fill="#f78c6c">true</tspan></text>
+        <text class="ln" style="animation-delay:2.8s" x="18" y="184" fill="#e6e8ff">)</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-label="Educa LMS — una base de código, cuatro institutos">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1222"/>
+      <stop offset="1" stop-color="#111a33"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#404db0"/>
+      <stop offset="1" stop-color="#6a5acd"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity=".06"/>
+    </pattern>
+    <style>
+      .f { font-family: 'Segoe UI', 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
+      .flow { stroke-dasharray: 6 10; animation: flow 1.2s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -32; } }
+      .halo { animation: halo 3s ease-in-out infinite; }
+      @keyframes halo { 50% { opacity: .25; } }
+      .pop { opacity: 0; animation: pop .6s cubic-bezier(.2,.8,.2,1) forwards; }
+      @keyframes pop { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }
+      .stat { opacity: 0; animation: up .6s ease forwards; }
+      @keyframes up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      .soon { animation: soon 2s ease-in-out infinite; }
+      @keyframes soon { 50% { opacity: .45; } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="440" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="440" rx="18" fill="url(#dots)"/>
+  <rect x=".5" y=".5" width="999" height="439" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <!-- Encabezado -->
+  <g class="f">
+    <text x="40" y="52" font-size="12" font-weight="700" fill="#ffcd42" letter-spacing="2.5">PROYECTO DESTACADO · EN PRODUCCIÓN</text>
+    <text x="40" y="88" font-size="30" font-weight="800" fill="#ffffff">Educa LMS<tspan font-size="18" font-weight="400" fill="#9aa3d6" dx="14">— una base de código, cuatro institutos</tspan></text>
+  </g>
+
+  <!-- Fuente única -->
+  <g transform="translate(40 140)">
+    <rect width="230" height="150" rx="14" fill="#0f1730" stroke="#ffffff" stroke-opacity=".1"/>
+    <text class="m" x="18" y="32" font-size="11" fill="#6b7299">// fuente única</text>
+    <g class="m" font-size="13">
+      <text x="18" y="60" fill="#e6e8ff"><tspan fill="#3ddc97">●</tspan> feature/*</text>
+      <text x="18" y="84" fill="#e6e8ff"><tspan fill="#82aaff">●</tspan> develop <tspan fill="#6b7299">→ staging</tspan></text>
+      <text x="18" y="108" fill="#e6e8ff"><tspan fill="#c792ea">●</tspan> release/*</text>
+      <text x="18" y="132" fill="#e6e8ff"><tspan fill="#ffcd42">●</tspan> main <tspan fill="#6b7299">· tag</tspan></text>
+    </g>
+  </g>
+
+  <!-- Generadora -->
+  <path class="flow" d="M270 215 H340" stroke="#6a5acd" stroke-width="2.5" fill="none"/>
+  <g transform="translate(340 165)">
+    <rect class="halo" x="-6" y="-6" width="182" height="112" rx="18" fill="#6a5acd" opacity=".55" filter="url(#glow)"/>
+    <rect width="170" height="100" rx="14" fill="url(#core)"/>
+    <text class="f" x="85" y="40" font-size="12" fill="#e2e0ff" text-anchor="middle" letter-spacing="1.5">GENERADORA</text>
+    <text class="m" x="85" y="64" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="700">generar-marca</text>
+    <text class="f" x="85" y="84" font-size="11" fill="#d6d3ff" text-anchor="middle">nombre · color · logo · series</text>
+  </g>
+
+  <!-- Flujos hacia marcas -->
+  <g fill="none" stroke-width="2.5">
+    <path class="flow" d="M510 215 C 580 215, 590 150, 660 150" stroke="#4f8cff"/>
+    <path class="flow" d="M510 215 C 580 215, 590 196, 660 196" stroke="#3ddc97" style="animation-delay:.2s"/>
+    <path class="flow" d="M510 215 C 580 215, 590 242, 660 242" stroke="#ff8a5c" style="animation-delay:.4s"/>
+    <path class="flow" d="M510 215 C 580 215, 590 288, 660 288" stroke="#ffcd42" stroke-opacity=".5" style="animation-delay:.6s"/>
+  </g>
+
+  <!-- Marcas -->
+  <g class="f">
+    <g class="pop" style="animation-delay:.2s">
+      <rect x="660" y="130" width="300" height="40" rx="10" fill="#4f8cff" fill-opacity=".12" stroke="#4f8cff" stroke-opacity=".6"/>
+      <circle cx="682" cy="150" r="6" fill="#4f8cff"/>
+      <text x="698" y="155" font-size="15" font-weight="700" fill="#ffffff">EDUCA</text>
+      <text x="944" y="155" font-size="12" fill="#8fb4ff" text-anchor="end">fuente · producción</text>
+    </g>
+    <g class="pop" style="animation-delay:.45s">
+      <rect x="660" y="176" width="300" height="40" rx="10" fill="#3ddc97" fill-opacity=".12" stroke="#3ddc97" stroke-opacity=".6"/>
+      <circle cx="682" cy="196" r="6" fill="#3ddc97"/>
+      <text x="698" y="201" font-size="15" font-weight="700" fill="#ffffff">IPSE</text>
+      <text x="944" y="201" font-size="12" fill="#8fe8c0" text-anchor="end">generada · producción</text>
+    </g>
+    <g class="pop" style="animation-delay:.7s">
+      <rect x="660" y="222" width="300" height="40" rx="10" fill="#ff8a5c" fill-opacity=".12" stroke="#ff8a5c" stroke-opacity=".6"/>
+      <circle cx="682" cy="242" r="6" fill="#ff8a5c"/>
+      <text x="698" y="247" font-size="15" font-weight="700" fill="#ffffff">ICEPP</text>
+      <text x="944" y="247" font-size="12" fill="#ffb899" text-anchor="end">generada · producción</text>
+    </g>
+    <g class="pop" style="animation-delay:.95s">
+      <rect x="660" y="268" width="300" height="40" rx="10" fill="#ffcd42" fill-opacity=".06" stroke="#ffcd42" stroke-opacity=".45" stroke-dasharray="5 4"/>
+      <circle class="soon" cx="682" cy="288" r="6" fill="#ffcd42"/>
+      <text x="698" y="293" font-size="15" font-weight="700" fill="#ffffff">CESUP</text>
+      <text x="944" y="293" font-size="12" fill="#ffe08a" text-anchor="end">en camino</text>
+    </g>
+  </g>
+
+  <!-- Métricas -->
+  <line x1="40" y1="338" x2="960" y2="338" stroke="#ffffff" stroke-opacity=".08"/>
+  <g class="f" text-anchor="middle">
+    <g class="stat" style="animation-delay:1.1s"><text x="117" y="380" font-size="26" font-weight="800" fill="#ffffff">6</text><text x="117" y="404" font-size="12" fill="#9aa3d6">roles con permisos</text></g>
+    <g class="stat" style="animation-delay:1.2s"><text x="270" y="380" font-size="26" font-weight="800" fill="#ffffff">216</text><text x="270" y="404" font-size="12" fill="#9aa3d6">páginas por rol</text></g>
+    <g class="stat" style="animation-delay:1.3s"><text x="423" y="380" font-size="26" font-weight="800" fill="#ffffff">35</text><text x="423" y="404" font-size="12" fill="#9aa3d6">endpoints API</text></g>
+    <g class="stat" style="animation-delay:1.4s"><text x="577" y="380" font-size="26" font-weight="800" fill="#ffffff">19</text><text x="577" y="404" font-size="12" fill="#9aa3d6">trabajos cron</text></g>
+    <g class="stat" style="animation-delay:1.5s"><text x="730" y="380" font-size="26" font-weight="800" fill="#3ddc97">385</text><text x="730" y="404" font-size="12" fill="#9aa3d6">pruebas PHPUnit</text></g>
+    <g class="stat" style="animation-delay:1.6s"><text x="883" y="380" font-size="26" font-weight="800" fill="#ffcd42">PHP 8.3</text><text x="883" y="404" font-size="12" fill="#9aa3d6">sin framework</text></g>
+  </g>
+</svg>
