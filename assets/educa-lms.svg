@@ -8,9 +8,9 @@
       .ink { fill: #1f2a44; } .mut { fill: #5b6785; } .acc { fill: #e8590c; }
       .flow { stroke-dasharray: 7 6; animation: flow 1s linear infinite; }
       @keyframes flow { to { stroke-dashoffset: -26; } }
-      .in { opacity: 0; animation: in .6s ease forwards; }
+      .in {}
       @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-      .nd { opacity: 0; animation: nd .6s cubic-bezier(.2,.8,.2,1) forwards; }
+      .nd {}
       @keyframes nd { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
       .soon { animation: soon 1.8s ease-in-out infinite; }
       @keyframes soon { 50% { opacity: .35; } }

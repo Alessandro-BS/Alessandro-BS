@@ -6,17 +6,17 @@
     <style>
       .m { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace; }
       .ink { fill: #1f2a44; } .mut { fill: #5b6785; } .acc { fill: #e8590c; }
-      .draw { stroke-dasharray: 460; stroke-dashoffset: 460; animation: draw 1.2s ease .3s forwards; }
+      .draw {}
       @keyframes draw { to { stroke-dashoffset: 0; } }
-      .in { opacity: 0; animation: in .6s ease forwards; }
+      .in {}
       @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-      .pipe { stroke-dasharray: 90; stroke-dashoffset: 90; animation: draw .5s linear forwards; }
-      .st { fill: #f7f4ec; animation: ok .3s ease forwards; }
-      @keyframes ok { to { fill: #2f9e44; } }
-      .ck { opacity: 0; animation: in .2s ease forwards; }
-      .blink { animation: blink 1.6s ease-in-out 3.4s infinite; }
+      .pipe { stroke-dasharray: 6 5; animation: run 1s linear infinite; } @keyframes run { to { stroke-dashoffset: -22; } }
+      .st { fill: #2f9e44; animation: beat 3.2s ease-in-out infinite; }
+      @keyframes beat { 0%,20%,100% { fill: #2f9e44; } 10% { fill: #e8590c; } }
+      .ck {}
+      .blink { animation: blink 1.6s ease-in-out infinite; }
       @keyframes blink { 50% { opacity: .3; } }
-      .cls { opacity: 0; animation: cls .8s cubic-bezier(.2,.8,.2,1) .2s forwards; }
+      .cls {}
       @keyframes cls { from { opacity: 0; transform: translate(14px, -6px); } to { opacity: 1; transform: none; } }
     </style>
   </defs>

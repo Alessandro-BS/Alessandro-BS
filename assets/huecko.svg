@@ -7,11 +7,12 @@
     <style>
       .m { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace; }
       .ink { fill: #1f2a44; } .mut { fill: #5b6785; } .acc { fill: #e8590c; }
-      .msg { opacity: 0; animation: msg .45s ease forwards; }
+      .msg { animation: hl 5s linear infinite; }
+      @keyframes hl { 0%, 9% { stroke: #e8590c; stroke-width: 2.6px; } 12%, 100% { stroke: #1f2a44; stroke-width: 1.6px; } }
       @keyframes msg { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
       .life { stroke-dasharray: 5 5; }
-      .note { opacity: 0; animation: msg .6s ease 5.2s forwards; }
-      .hit { animation: hit 1.6s ease-in-out 5.8s infinite; }
+      .note {}
+      .hit { animation: hit 1.6s ease-in-out infinite; }
       @keyframes hit { 50% { fill: #ffe8d6; } }
     </style>
   </defs>
