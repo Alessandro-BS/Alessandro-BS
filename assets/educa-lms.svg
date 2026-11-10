@@ -134,7 +134,7 @@
         <text x="268" y="405" font-size="20" font-weight="800" class="ink">216</text><text x="268" y="425" font-size="11" class="mut">páginas por rol</text>
         <text x="423" y="405" font-size="20" font-weight="800" class="ink">35</text><text x="423" y="425" font-size="11" class="mut">endpoints de API</text>
         <text x="577" y="405" font-size="20" font-weight="800" class="ink">19</text><text x="577" y="425" font-size="11" class="mut">trabajos cron</text>
-        <text x="732" y="405" font-size="20" font-weight="800" fill="#2f9e44">385 ✓</text><text x="732" y="425" font-size="11" class="mut">pruebas PHPUnit</text>
+        <text x="732" y="405" font-size="20" font-weight="800" fill="#2f9e44">3 099 ✓</text><text x="732" y="425" font-size="11" class="mut">pruebas PHPUnit</text>
         <text x="887" y="405" font-size="20" font-weight="800" class="acc">PHP 8.3</text><text x="887" y="425" font-size="11" class="mut">sin framework</text>
       </g>
     </g>
