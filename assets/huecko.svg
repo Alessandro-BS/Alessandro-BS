@@ -26,7 +26,7 @@
     <rect x="34" y="30" width="64" height="24" fill="#e8590c"/>
     <text x="66" y="47" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">FIG. 2</text>
     <text x="112" y="48" font-size="20" font-weight="800" class="ink">HueckoApp <tspan font-weight="400" class="mut" font-size="15">— diagrama de secuencia</tspan></text>
-    <text x="964" y="47" font-size="12" class="mut" text-anchor="end">v1 Kotlin → v2 Expo · 988 tests ✓</text>
+    <text x="964" y="47" font-size="12" class="mut" text-anchor="end">v1 Kotlin → v2 Expo · 1 060 tests ✓</text>
   </g>
 
   <!-- Líneas de vida -->
